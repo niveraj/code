@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+typedef struct Stack Stack_def;
+
+struct Stack {
+int position;
+unsigned int capacity;
+int *array;
+};
+
+struct Stack *createStack(unsigned int size) {
+struct Stack *stack = (struct Stack *) malloc (sizeof(struct Stack *));
+
+}
+
+int main(){
+struct Stack *stack = createStack(100);
+return 0;
+}
+
